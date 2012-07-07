@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link rel='stylesheet' id='style-css'  href='diapo.css' type='text/css' media='all'> 
+<?php echo $this->headMeta() . "\n"; ?>
+<?php echo $this->headLink()->prependStylesheet( $this->baseUrl() . '/diapo.css' ) . "\n"; ?>
+<?php  echo $this -> headScript() -> appendFile($this -> baseUrl() . '/scripts/jquery.easing.1.3.js') . "\n";?>
+<?php  echo $this -> headScript() -> appendFile($this -> baseUrl() . 'scripts/jquery.min.js') . "\n";?>
+<?php  echo $this -> headScript() -> appendFile($this -> baseUrl() . 'scripts/jquery.easing.1.3.js') . "\n";?> 
+<?php  echo $this -> headScript() -> appendFile($this -> baseUrl() . 'scripts/jquery.hoverIntent.minified.js') . "\n";?> 
+<?php  echo $this -> headScript() -> appendFile($this -> baseUrl() . 'scripts/jquery.maskedinput-1.3.min.js') . "\n";?>
+<?php  echo $this -> headScript() -> appendFile($this -> baseUrl() . 'scripts/jquery.form.js') . "\n";?>
+<script src="scripts/plugins/jquery-validate/jquery.validate.js" language="javascript"></script>
+<?php  echo $this -> headScript() -> appendFile($this -> baseUrl() . 'scripts/ui/js/jquery-ui-1.8.16.custom.min.js') . "\n";?> 
+<?php echo $this->headLink()->prependStylesheet( $this->baseUrl() . '/scripts/ui/css/ui-lightness/jquery-ui-1.8.16.custom.css' ) . "\n"; ?>
+<?php echo $this->headLink()->prependStylesheet( $this->baseUrl() . '/blueprint/screen.css' ) . "\n"; ?>
+<?php echo $this->headLink()->prependStylesheet( $this->baseUrl() . '/blueprint/print.css' ) . "\n"; ?>
+<?php echo $this->headLink()->prependStylesheet( $this->baseUrl() . '/blueprint/plugins/buttons/screen.css' ) . "\n"; ?>
+<!--[if lt IE 8]>
+	<?php echo $this->headLink()->prependStylesheet( $this->baseUrl() . '/blueprint/ie.css' ) . "\n"; ?>
+<![endif]--> 
+<?php echo $this->headLink()->prependStylesheet( $this->baseUrl() . '/blueprint/plugins/link-icons/screen.css' ) . "\n"; ?>
+<?php echo $this->headLink()->prependStylesheet( $this->baseUrl() . '/blueprint/plugins/fancy-type/screen.css' ) . "\n"; ?>
+<?php echo $this->headLink()->prependStylesheet( $this->baseUrl() . '/home.css' ) . "\n"; ?>
+<?php echo $this->headTitle() . "\n"; ?>
+	
+
+<body>
+	<div class="container " id="conteudo">
+    	<div id="topo" class="span-24 last">        	
+        	<ul id="nav-menu">
+           	 <li id="spacer">&nbsp;</li>
+            	<?php echo $this->menu; ?>
+            </ul>
+        </div>
+        <div id="content">
+        	<?php echo $this->layout()->render( $this->pagina ); ?>
+        </div>
+    </div>
+</body>
+</html>

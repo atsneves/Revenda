@@ -1,0 +1,119 @@
+body{
+		background:url(imagens/background.jpg) no-repeat #08335D;
+		margin-top:20px;		
+	}
+
+	#topo{
+		background:url(imagens/topo.jpg);
+		height:92px;
+	}
+	#nav-menu ul
+	{	
+	padding: 0;
+	margin-left: 100px;
+	width:100%;	}
+	
+	#nav-menu li
+	{
+	float: left;
+	margin: 40px 0px 0px ;
+	list-style: none;
+	}
+	#nav-menu li #direita{
+		background: url(imgMenu/left.png) top left repeat-x;
+		height: 34px;
+		line-height: 2em;
+		float: left;
+		padding:4px 10px 0px 12px;
+		margin-left:10px;
+		display: block;
+		color: #0d2474;
+		text-decoration: none;
+		text-align: center;
+	}
+	#nav-menu li #direita:hover{
+		background: url(imgMenu/left_hover.png) top left repeat-x;
+		height: 34px;
+		line-height: 2em;
+		float: left;
+		padding:4px 10px 0px 12px;
+		margin-left:10px;
+		display: block;
+		color: #0d2474;
+		text-decoration: none;
+		text-align: center;
+	}
+	
+	#nav-menu li #contato{
+		background: url(imgMenu/contato.png) top right repeat-x;
+		height: 34px;
+		width: 70px;
+		line-height: 2em;
+		float: left;
+		padding:4px 12px 0px 12px;
+		display: block;
+		color: #0d2474;
+		text-decoration: none;
+		text-align: left;
+	}
+	#nav-menu li #contato:hover{
+		background: url(imgMenu/contato_hover.png) top right repeat-x;
+		height: 34px;
+		width: 70px;
+		line-height: 2em;
+		float: left;
+		padding:4px 12px 5px 12px;
+		display: block;
+		color: #0d2474;
+		text-decoration: none;
+		text-align: left;
+	}
+	
+	#nav-menu li a
+	{
+	background: url(imgMenu/fillet.png) top left repeat-x;
+	height: 34px;
+	line-height: 2em;
+	float: left;
+	padding:4px 12px 0px 12px;
+	display: block;
+	color: #0d2474;
+	text-decoration: none;
+	text-align: center;
+	}
+	
+	#nav-menu li a:hover
+	{
+	background: url(imgMenu/menu_hover_tp.png) top left repeat-x;
+	height: 34px;
+	line-height: 2em;
+	float: left;
+	padding:4px 12px 0px 12px;
+	display: block;
+	color: #0d2474;
+	text-decoration: none;
+	text-align: center;
+	}
+	
+	#nav-menu li a
+	{
+	background: url(imgMenu/fillet.png) top left repeat-x;
+	height: 34px;
+	line-height: 2em;
+	float: left;
+	padding:4px 12px 0px 12px;
+	display: block;
+	color: #0d2474;
+	text-decoration: none;
+	text-align: center;
+	}
+	
+	/* Hide from IE5-Mac \*/
+	#nav-menu li a
+	{
+	float: none
+	}
+	/* End hide */	
+	#spacer{
+		width:400px;
+	}
